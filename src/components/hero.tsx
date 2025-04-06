@@ -1,8 +1,8 @@
 import React from 'react'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 
 interface HeroProps {
-  imgUrl: StaticImageData
+  imgUrl: string
   altText: string
   content: string
 }

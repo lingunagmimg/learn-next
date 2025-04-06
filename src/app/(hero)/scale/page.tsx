@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from '@/components/hero'
-import scaleUrl from '/scale.jpg'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -8,5 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function Scale() {
-  return <Hero imgUrl={scaleUrl} altText='Scale' content='Scale~~~' />
+  return <Hero imgUrl='/scale.jpg' altText='Scale' content='Scale~~~' />
 }

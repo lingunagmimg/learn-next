@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from '@/components/hero'
-import performanceUrl from '/performance.jpg'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -8,5 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function Performance() {
-  return <Hero imgUrl={performanceUrl} altText='PerformanceUrl' content='PerformanceUrl~~~' />
+  return <Hero imgUrl='/performance.jpg' altText='PerformanceUrl' content='PerformanceUrl~~~' />
 }
